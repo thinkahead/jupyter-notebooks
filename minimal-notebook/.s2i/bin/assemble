@@ -9,8 +9,8 @@ set -eo pipefail
 ########################################################################
 
 # Ensure we are using the latest pip and wheel packages.
-
-pip3 install -U pip setuptools wheel
+pip install --upgrade "pip < 21.0"
+pip3 install -U setuptools wheel
 
 # Install mod_wsgi for use in optional webdav support.
 
