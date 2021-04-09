@@ -1,4 +1,4 @@
-iscikit-learn
+scikit-learn
 scikit-image
 pillow
 matplotlib
